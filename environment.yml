@@ -1,12 +1,12 @@
+name: python 3.7
+channels:
+  - conda-forge
 dependencies: 
-  - python=3 
-  - pip: 
-    - spacy 
-    - ipykernel 
-    - scipy 
-    - numpy 
-    - scikit-learn 
+  - python=3.7
+  - scikit-learn 
+  - scipy 
+  - numpy 
+  - pip
+  - pip:
     - matplotlib 
     - pandas 
-    - thinc
-
